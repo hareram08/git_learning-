@@ -1,0 +1,21 @@
+Git is a distributed version control system used to track changes to files over time. It helps developers manage source code, collaborate with others, create branches for different features or fixes, and maintain a complete history of a project.
+
+Git Workflow
+------------
+1. Get a project: clone an existing repository with `git clone <repository-url>`, or start a new one with `git init`.
+2. Check the current state and download the latest shared changes with `git status` and `git pull`.
+3. Create a branch for your task with `git switch -c <branch-name>`.
+4. Edit and test your files.
+5. Review your changes with `git status` and `git diff`.
+6. Stage the changes you want to save with `git add <file>` (or `git add .` to stage all changes).
+7. Save a snapshot with `git commit -m "Describe the change"`.
+8. Share your branch with `git push -u origin <branch-name>`, then open a pull request for review and merging.
+
+Daily Uses of Git
+-----------------
+- Track and review edits to code, documents, and other project files.
+- Save work in small, meaningful commits so changes are easier to understand and undo.
+- Work on features or fixes separately using branches, without disturbing the main branch.
+- Collaborate by sharing changes, reviewing teammates' work, and merging approved updates.
+- Retrieve earlier versions or compare changes when investigating a problem.
+- Keep a local copy of the project history and synchronize it with a remote repository.
